@@ -45,6 +45,7 @@ This project was developed and tested in Google Colab. Input video files are ava
 
 ## **Usage**
 
+<code>
 usage: python3 vcoach.py [-h] [-b BATCH_SIZE]
                          [--score_fn {cosine_similarity,inv_weighted_distance,product}]
                          ref_videofile test_videofile out_videofile
@@ -62,3 +63,4 @@ options:
                         batch size (default: 4)
   --score_fn {cosine_similarity,inv_weighted_distance,product}
                         scoring function (default: product)
+</code>
